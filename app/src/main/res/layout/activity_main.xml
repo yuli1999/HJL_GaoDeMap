@@ -5,21 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <com.amap.api.maps.MapView
         android:id="@+id/map"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="500dp" />
 
-    <ImageView
-        android:id="@+id/dw"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@drawable/yj"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp"
-        android:layout_marginLeft="25dp"
-        android:src="@drawable/dw"/>
-
-
+    <TextView
+        android:id="@+id/txt"
+        android:layout_below="@id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
 
 </RelativeLayout>
